@@ -1,21 +1,35 @@
-#add_bet_wp {
-	display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: 600px;
-    padding: 0 15px;
-    margin: 0 auto;
-    font-size: 16px;
-}
-
-#add_bet_wp input, #add_bet_wp textarea, #add_bet_wp select {
-	    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-}
-#add_bet_wp .error_field, #set_bet_vote .error_field{
-	border: 1px solid red;
-}
-#response_bets_wp {
-	text-align: center;
+#add_bet_wp {
+	display: flex;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    max-width: 600px;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+
+    font-size: 16px;
+
+}
+#add_bet_wp input, #add_bet_wp textarea, #add_bet_wp select {
+
+	    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+}
+#add_bet_wp .error_field, #set_bet_vote .error_field{
+
+	border: 1px solid red;
+
+}
+#response_bets_wp {
+
+	text-align: center;
+
 }
